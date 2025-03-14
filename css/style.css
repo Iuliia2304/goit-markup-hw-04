@@ -109,9 +109,7 @@ gap: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.nav-list:hover{
-    
-}
+
 .nav-list a:hover::after{
 content: "";
 position:absolute;
@@ -162,7 +160,6 @@ gap:40px;
     background-image: linear-gradient(to bottom,
     rgba(46,47,66,0.7), rgba(46,47,66,0.7)),
     url(../images/people-office.jpg);
-    max-width: 1140px;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -361,7 +358,7 @@ background-color: #404BBF;
 .portfolio-list{
 width: calc((100% - 48px) / 3);
  background: #fff;
- transition: box-shadow 250ms cubic-bezier(0.4,0,0.2,1);
+ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list:hover{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -383,7 +380,7 @@ width: calc((100% - 48px) / 3);
    height: 100%;
    width: 100%;
    transform: translateY(100%);
-   transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list:hover .overlay{
     transform: translateY(0);
@@ -462,7 +459,7 @@ font-weight: 500;
 .footer-link{
 width: 40px;
 min-height: 40px;
-transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);       
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);       
 }
 .footer-icon{
     width: 100%;
